@@ -1,0 +1,14 @@
+{  
+  "routes": [  
+  {  
+    "route": "/*",  
+    "serve": "/index.html",  
+    "statusCode": 200  
+  }],  
+  "defaultHeaders": {  
+    "content-security-policy": "default-src https: 'unsafe-eval' 'unsafe-inline' cdn.jsdelivr.net *.mapy.cz",  
+    "x-frame-options": "deny",  
+    "feature-policy": "accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'",  
+    "permissions-policy": "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"  
+  }  
+}
